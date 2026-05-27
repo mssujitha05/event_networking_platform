@@ -1,3 +1,34 @@
+## 3. Event Networking Platform
+
+### Problem Statement
+
+People attending hackathons and tech events struggle to network effectively. Build a landing page for a networking platform that helps attendees discover and connect with others based on interests and skills.
+
+### Frontend Layout Idea
+
+* Tinder-style profile cards
+* Dark neon cyberpunk UI
+* Horizontal scrolling sections
+* Interactive attendee map
+
+### Backend Functionality
+
+* User profile creation
+* Interest matching
+* Connection requests
+* Event-based rooms
+
+### Unique Feature
+
+* AI networking recommendations
+* “People you should meet” engine
+
+### Tech Features
+
+* FastAPI websocket support
+* Real-time notifications
+* Framer Motion animations
+* Responsive card swiping UI
 ## — Event Networking Platform
 
 > **AI-powered developer matchmaking** for hackathons and tech events. Find teammates and co-founders using TF-IDF cosine similarity matching, real-time WebSocket chat, and an immersive cyberpunk UI.

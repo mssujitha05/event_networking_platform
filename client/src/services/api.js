@@ -3,7 +3,7 @@ import axios from 'axios';
 const API_BASE = '/api';
 
 const api = axios.create({
-  baseURL: API_BASE,
+  baseURL: "https://event-networking-platform.onrender.com/api",
   headers: { 'Content-Type': 'application/json' },
 });
 

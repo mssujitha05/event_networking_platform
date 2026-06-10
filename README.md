@@ -1,4 +1,39 @@
+<<<<<<< HEAD
 # LinkUp AI ⚡ — Cyberpunk Event Networking Platform
+=======
+## 3. Event Networking Platform
+
+### Problem Statement
+
+People attending hackathons and tech events struggle to network effectively. Build a landing page for a networking platform that helps attendees discover and connect with others based on interests and skills.
+
+### Frontend Layout Idea
+
+* Tinder-style profile cards
+* Dark neon cyberpunk UI
+* Horizontal scrolling sections
+* Interactive attendee map
+
+### Backend Functionality
+
+* User profile creation
+* Interest matching
+* Connection requests
+* Event-based rooms
+
+### Unique Feature
+
+* AI networking recommendations
+* “People you should meet” engine
+
+### Tech Features
+
+* FastAPI websocket support
+* Real-time notifications
+* Framer Motion animations
+* Responsive card swiping UI
+## — Event Networking Platform
+>>>>>>> 4f1749823d1d87b797da9d42cbfd06205ddf1d89
 
 > **AI-powered developer matchmaking** for hackathons and tech events. Find teammates and co-founders using TF-IDF cosine similarity matching, real-time WebSocket chat, and an immersive cyberpunk UI.
 
@@ -8,6 +43,7 @@
 
 ---
 
+<<<<<<< HEAD
 ## ✨ Features
 
 - 🤖 **AI Matchmaking** — TF-IDF cosine similarity engine scores developer compatibility
@@ -20,6 +56,20 @@
 ---
 
 ## 🛠 Tech Stack
+=======
+##  Features
+
+- **AI Matchmaking** — TF-IDF cosine similarity engine scores developer compatibility
+- **Real-time Chat** — WebSocket-powered event rooms with typing indicators
+- **Swipe UI** — Tinder-style card swiping on the Discover page
+- **JWT Auth** — Secure signup/login with bcrypt password hashing
+- **Event Map** — Interactive Leaflet.js map for hackathon locations
+- **Cyberpunk UI** — Glassmorphism, neon glows, Framer Motion animations
+
+---
+
+##  Tech Stack
+>>>>>>> 4f1749823d1d87b797da9d42cbfd06205ddf1d89
 
 | Layer     | Technologies |
 |-----------|-------------|
@@ -30,7 +80,11 @@
 
 ---
 
+<<<<<<< HEAD
 ## 🚀 Getting Started
+=======
+## Getting Started
+>>>>>>> 4f1749823d1d87b797da9d42cbfd06205ddf1d89
 
 ### Prerequisites
 - Node.js 18+
@@ -48,7 +102,12 @@ cd server
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install fastapi uvicorn sqlalchemy "python-jose[cryptography]" "passlib[bcrypt]" python-multipart websockets pydantic email-validator
+<<<<<<< HEAD
 uvicorn main:app --reload
+=======
+pip install -r requirements.txt
+ python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000
+>>>>>>> 4f1749823d1d87b797da9d42cbfd06205ddf1d89
 # → http://127.0.0.1:8000
 # → Swagger UI: http://127.0.0.1:8000/docs
 ```
